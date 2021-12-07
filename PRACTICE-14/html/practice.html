@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>  
+        <title>Amazon.de</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/style.amazon.css">
+        <link rel="stylesheet" href="../Fonts/fontawesome-free-5.15.2-web/css/all.css">
+        
+    </head>
+
+    <body>
+        
+    <header>
+        <div id="top_header">
+          
+            <a id="logo"href="amazon.html">
+                
+                 <span>.de</span>
+             
+            </a>
+            
+             <div id="location">   
+                 
+                 <i class="fas fa-map-marker-alt"></i>
+
+                 <div id="hello" class="font">Hello </div>
+
+                 <div id="address" class="font" >Select your address</div>
+
+             </div><!--location-->
+
+             <div id="search">
+
+                <select > 
+
+                    <option value="">All Departments</option>
+                    <option value="">Deals</option>
+                    <option value="">Alexa skills</option>
+                    <option value="">Amazon Devices</option>
+                    <option value="">Amazon Global Store</option>
+                    <option value="">Amazon Warehouse</option>
+                        
+     
+                </select> 
+
+                <input >
+
+                 <button >
+
+                    <img src="../images/1000px-Search_Icon.svg.png">
+                      
+                 </button>
+            </div><!--search-->
+       
+  
+
+            <!-- <a  href="amazon .sign in.html" id="language">  
+                <div >
+
+                </div>
+            </a>      -->
+
+            <!-- <div id="left-header"> -->
+    
+            <div id="language-content" >
+
+                    <a href="amazon.lang.html">
+                      <div id="language" ></div>
+                      <i class="fa fa-angle-down"></i>
+                   </a>
+
+                 <div id="lang-list">
+
+                      <div id="change-lang">Change language <a href="amazon.lang.html">Learn more</a></div>
+                      <div class="lang-group">
+                          <input  id="en" type="radio" checked name="language" >
+                          <label for="en">English</label>
+                      </div>
+
+                  <hr id="divide">
+                      <div class="lang-group">
+                          <input  id="fa" type="radio" name="language" >
+                          <label for="fa">Persian</label>
+                      </div>
+                    
+                      <div class="lang-group">
+                          <input  id="de" type="radio" name="language" >
+                          <label for="de">German</label>
+                      </div>
+                      <div class="lang-group">
+                          <input  id="fr" type="radio" name="language" >
+                          <label for="fr">French</label>
+                      </div>
+                      <div class="lang-group">
+                        <input  id="ar" type="radio" name="language" >
+                        <label for="ar">Arabic</label>
+                    </div>
+                    <div class="lang-group">
+                      <input  id="it" type="radio" name="language" >
+                      <label for="it">Italian</label>
+                  </div>
+                  <div class="lang-group">
+                    <input  id="sp" type="radio" name="language" >
+                    <label for="sp">Spanish</label>
+                </div>
+                <div class="lang-group">
+                  <input  id="ge" type="radio" name="language" >
+                  <label for="ge">German</label>
+              </div>
+                  <br>
+                 <hr id="divide">
+
+                    <div id="currency">Change currency <a href="">Learn more</a></div>
+                    <span id="change-cur">$ - USD - U.S. Dollar</span>
+                    <span id="change"> <a href="amazon.lang.html">Change</a> </span> 
+
+                 <hr id="divide">
+                   
+                   <div id="usa-flag1">
+
+                     <div id="usa-flag2"></div> 
+                     <span id="shop1">Your are shopping on</span>
+                     <span id="shop2">Amazon.com.</span>
+                     <h1 id="region"> <a href="amazon.region.html">Change country/region. </a></h1>
+                      
+                   </div>     
+
+                </div><!--lang-list-->
+
+              </div><!--language-content-->
+
+          
+           <div id="sign-in1">
+
+                   <a href="amazon.sign-in.html" >
+
+                      <div id="lists" >Hello, Sign in</div>  
+
+                      <div id="accounts">Account & Lists</div>
+
+                      <i  id="icon2" class="fa fa-angle-down"></i>
+
+                   </a>
+
+             <div id="your-account">
+
+                  <a href="amazon.sign-in.html">
+
+                    <button id="sign-in3">Sign in</button>
+
+                 </a>
+
+                   <div id="new-customer">New customer?<a href="amazon.sign-in.html"> Start here.</a></div> 
+                 
+                 <span>
+                 <hr> 
+                    <ul>
+                      <li>Find your gift</li>
+                      <li>Creat a list</li>
+                      <li>Find a list</li>
+                    </ul>
+
+                  </span>
+
+                  <span>
+                    <hr> 
+                       <ul>
+                         <li>Find your gift</li>
+                         <li>Creat a list</li>
+                         <li>Find a list</li>
+                       </ul>
+   
+                     </span>
+
+             </div><!--your-account-->  
+                    
+          </div> <!--sign-in1-->
+
+          <div id="order">
+             <a     href="amazon.sign-in.html">
+
+                <div id="returns">Returns</div>
+
+                <div id="orders">& Orders</div>
+             </a>
+
+         </div>
+
+            <a id="cart"  href="amazon.cart.html">
+
+                 <i class="fas fa-shopping-cart">
+                     <span id="num-product">0</span>
+                  </i>
+
+                 <div class="font" id="shopping">Shopping-</div> 
+
+                 <div class="font" id="basket">Basket</div>
+
+                 <div id="list-cart">
+
+                   <p>Your Cart is empty!</p>
+
+                    <ul id="list-ul">
+                  
+                    </ul> 
+                   
+                    <div id="proceed">
+                      <div>
+                        <span id="total">Total:</span>
+                        <span id="total_p"></span>
+                        <br>
+                      </div>
+                      <br>
+                        <button   id="check-out">Check out</button>
+                    </div> 
+
+                 </div><!--list-cart-->
+                    
+            </a> <!--cart-->
+           
+
+        </div> <!--top_header-->
+
+        <div id="bot_header"></div>
+    </header>
+
+    <main> 
+
+        <div id="main-top">  <!--???-->
+
+             <!-- <div class="box" id="valentine"> 
+
+                <span>Valentine gift</span>
+
+             </div>
+        
+             <div class="box" id="makeup"> 
+
+                  <span>Make up</span>
+
+             </div>
+
+             <div class="box" id="coffee">
+
+                 <span>Coffee</span>
+            
+             </div>
+
+              <div id="sign-in" >
+                      
+                      <span>Sign in for your best experience</span>
+                      <button>Sign in in securely</button>
+
+              </div>
+
+              <div id="all-gifts" > 
+
+                      <span>CHOOSE YOUR GIFT</span>
+
+              </div> -->
+
+            <div id="cart-2">
+
+              <div class="item" >
+                <a href="product.html" id="add-cart">
+
+                    <img id="watch1" class="watch" src="../images/watch.jpeg" alt="make up">
+                    <div class="title">Apple Watch</div>
+                    <div> 
+                          <span>$</span>
+                          <span class="price">159</span>
+                    </div>
+                    <div >Ends in 11:26:33</div>
+                    <div>Up to 24% off on Pny Data</div>
+                    <div>Storage</div>
+                    <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>23365</span>
+                    </span>
+                  </a>
+                    <div>
+                        <button class="add" id="1" onclick="addToCart(event)" >Add to cart</button>
+                    </div>
+              </div>
+
+              <div class="item" >
+                 <a href="product.html" id="add-cart">
+
+                    <img id="dress" class="watch"  src="../images/short dress.jpg" alt="">
+                    <div class="title">Dress</div>
+                    <div>
+                          <span>$</span>
+                          <span class="price" >160</span>
+                    </div>
+                    <div>Ends in 11:26:33</div>
+                    <div>Up to 24% off on Pny Data</div>
+                    <div>Storage</div>
+                    <span>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>23365</span>
+                    </span>
+                 </a>
+                   
+                <div>
+                  <button class="add" id="2"  onclick="addToCart(event)">Add to cart</button>
+                </div>
+
+              </div>
+
+              <div class="item" >
+                  <a href="product.html" id="add-cart">
+
+                    <img id="Bag" class="watch"  src="../images/bag.jpg" alt="">
+                    <div class="title">Bag</div>
+                    <div>
+                      <span>$</span>
+                      <span class="price" >150</span>
+                     </div>
+                    <div>Ends in 11:26:33</div>
+                    <div>Up to 24% off on Pny Data</div>
+                    <div>Storage</div>
+                    <span>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>23365</span>
+                    </span>
+                </a>
+
+                <div>
+                  <button class="add"  id="3"  onclick="addToCart(event)">Add to cart</button>
+                </div>
+
+              </div>
+
+              <div class="item">
+                <a href="product.html" id="add-cart">
+
+                    <img id="Flower"  class="watch"  src="../images/p-bouquet-of-10-enchanting-roses-112352-m.jpg" alt="">
+                    <div class="title">Flower</div>
+                    <div>
+                      <span>$</span>
+                      <span class="price" >100</span>
+                    </div>
+                    <div>Ends in 11:26:33</div>
+                    <div>Up to 24% off on Pny Data</div>
+                    <div>Storage</div>
+                    <span>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>23365</span>
+                    </span>
+                </a>
+
+                <div>
+                  <button class="add" id="4"  onclick="addToCart(event)">Add to cart</button>
+                </div>
+
+              </div>
+
+              <div class="item">
+                <a href="product.html" id="add-cart">
+
+                    <img id="shoes"  class="watch"   src="../images/shoes.jpg" alt="">
+                    <div class="title">Shoes</div>
+                    <div>
+                      <span>$</span>
+                      <span class="price" >250</span>
+                     </div>
+                    <div>Ends in 11:26:33</div>
+                    <div>Up to 24% off on Pny Data</div>
+                    <div>Storage</div>
+                    <span>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>23365</span>
+                    </span>
+                </a>
+
+                <div>
+                  <button class="add"  id="5"  onclick="addToCart(event)">Add to cart</button>
+                </div>
+
+              </div>
+
+              </div><!--cart-2-->
+             
+
+    </main>
+
+    <script src="../js/practice.js"></script>
+  
+
+   </body>
+
+</html>

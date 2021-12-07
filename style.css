@@ -1,0 +1,29 @@
+#welcome{
+    background: red;
+}
+
+.div-test{
+    background: dodgerblue;
+    color:white;
+    margin-bottom: 10px;
+}
+#btn-alert{
+    background: yellow;
+}
+.test{
+    background: red;
+    padding: 15px;
+    color: white;
+}
+
+.cart-item{
+    display: flex;
+}
+.cart-item img{
+    width: 100px;
+    height: 100px;
+}
+.cart-section{
+    display: flex;
+    justify-content: space-between;
+}

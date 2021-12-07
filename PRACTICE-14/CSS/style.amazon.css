@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-style: none;
+}
+
+#top_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding-bottom: 10px;
+    /* width: 1375; */
+}
+
+#logo{
+    border: none;
+    display: inline;
+    height: 40px;
+    width: 115px;
+    border: none;
+    position: relative;
+    margin: 10px;
+    background-image: url(../images/nav-sprite-global-2x-hm-dsk-reorg._CB405937709_.png);
+    background-position: -4px -30px;
+    background-size: 291px;
+}
+
+#logo:hover{
+    border: white solid 1px;
+}
+
+
+#logo span{
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    color: white;
+
+}
+
+.font{
+    color: white;
+    font-size: 14px;
+}
+
+#location{
+    border: none;
+    padding: 14px 8px 5px 26px;
+    width: 143px;
+    position: relative;
+}
+
+.fa-map-marker-alt{
+    color: white;
+    position: absolute;
+    top: 31px;
+    left: 12px;
+}
+
+#location:hover{
+    border: white solid 1px;
+}
+
+#address{
+    margin-bottom: 30px;
+    display: inline;
+}
+
+
+#loc-img{
+    height: 38px;
+    width: 43px;
+    background-image: url(../images/nav-sprite-global-2x-hm-dsk-reorg._CB405937709_.png);
+    background-position: -170px 1053px;
+}
+
+
+#search{
+    display: flex;
+    margin-top: 10px;
+    /* margin-right: 300px; */
+    /* margin-top: 12px; */
+}
+
+#search button{
+    height:37px ;
+    width: 43px;
+    border-radius: 0 5px 5px 0 ;
+    background-color: sandybrown;
+}
+
+
+#search button:hover{
+    background-color: blue;
+}   
+
+#search img{
+       height: 30px;
+       width: 30px;
+}
+   
+
+#search select{
+    font-size: 12px;
+    height: 37px;
+    width: 50px;
+    border-radius: 4px 0 0 4px;
+    background-color: #dddddd;
+    border-right: 2px solid #dddddd;
+}
+
+#search input{
+    width: 450px;
+    height: 31px;  
+}
+
+#language-content{
+    position: relative;
+    border: none;
+    padding: 13px 18px 6px 7px;
+}
+
+#language-content:hover{
+    border: white solid 1px ;
+}
+
+#lang-list{
+    display: none;
+    height: 430px;
+    background-color: #eee;
+    width: 215px;
+    position: absolute;
+    top: 50px;
+    left: -18px;
+}
+
+#change-lang{
+    padding: 6px 9px;
+}
+
+
+#language-content:hover #lang-list{
+    display: block;
+}
+
+.fa-angle-down{
+    position: absolute;
+    left: 43px;
+    top: 22px;
+    color: gray;
+}
+
+#language{
+    background-image: url(../images/flag.png);
+    height: 19px;
+    width: 30px;  
+}
+
+.lang-group{
+    padding: 7px 7px;
+}
+
+#en{
+    padding-bottom: 7px;
+}
+
+#currency{
+    padding: 7px 0 10px 12px;
+}
+
+#divide{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#change-cur{
+    padding: 5px 0 0px 14px;
+    font-size: 12px;
+}
+
+#change{
+    font-size: 13px;
+    padding-left: 40px;
+}
+
+#usa-flag1{
+    position: relative;
+    padding-top: 10px;
+}
+
+#usa-flag2{
+    background-image: url(../images/US-United-States-Flag-icon.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 26px;
+    background-size: 40px;
+    background-position: -4px;
+    position: absolute;
+    left: 10px;
+}
+
+#shop1{
+    padding: 0px 10px 0 38px;
+}
+
+#shop2{
+    padding-left: 9px;
+}
+
+#region{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 7px
+}
+
+
+#lists{
+    color: white;
+    font-size: 14px;
+}
+
+#accounts{
+    color: white;
+    font-size: 14px;
+}
+
+
+#sign-in1{
+    position: relative;
+    border: none;
+    padding: 13px 18px 6px 7px;
+}
+
+#icon2{
+    position: absolute;
+    top: 30px;
+    left: 105px;
+}
+
+#your-account{
+    display: none;
+    width: 400px;
+    height: 450px;
+    background-color: #eee;
+    position: absolute;
+    right: -48px;
+}
+
+#sign-in1:hover{
+    border: white solid 1px;
+}
+
+
+#sign-in1:hover #your-account{
+    display: block;
+}
+
+#sign-in3{
+    height: 37px;
+    width: 220px;
+    background-color: sandybrown;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 14px;
+    font-style: normal;
+    padding: -1px 36px;
+    margin-left: 95px;
+    margin-top: 17px;
+}
+
+#new-customer{
+    margin-top: 5px;
+    margin-left: 25p;
+    margin-left: 132px;
+    font-size: 13px;
+}
+#returns{
+    color: white;
+    size: 14px;
+}
+
+#order{
+    border: none;
+    padding: 8px;
+}
+
+#order:hover{
+    border: white solid 1px ;
+}
+
+
+#orders{
+    color: white;
+    size: 14px;
+}
+
+/* ########### cart ##################### */
+#cart{
+    border: none;
+    position: relative;
+    padding: 0 0 0 31px;
+}
+
+#cart:hover {
+    border: white solid 1px ;
+}
+
+.fa-shopping-cart{
+    position: absolute;
+    top: 15px;
+    right: 66px;
+    color: white;
+}
+
+#num-product{ 
+    color: orange;
+    position: absolute;
+    top: -14px;
+    right: 4px;
+}
+
+#bot_header{
+    height: 40px;
+    display: flex;
+    background-color:dimgray;
+}
+.div_c{
+    color: black;
+}
+.number_c{
+    padding-left: 12px;
+}
+#check-out-block{
+    display: none;
+    
+}
+
+
+
+#main-top{
+    background-color: beige;
+    height: 600px;
+    /* width: 1402px;
+    margin-left: -6px; */
+    background-image: url(../images/Pillowtalk-Makeup-Secrets-Bundle-Group-Packshot__1_.jpeg);
+    background-size: 249px 192px;
+    background-repeat: no-repeat;
+    background-position: 99px 16px;
+}
+
+.box{
+    padding: 161px 104px;
+    margin: 13px;
+    border: none;
+    position: relative;
+    display: inline;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+#valentine{
+    background-image: url(../images/download.jpeg);
+    background-size: 205px;
+    background-position: 57px 108px;
+}
+
+#valentine span{
+    position: relative;
+    top: -123px;
+    font-size: 20px;
+}
+
+#makeup{
+    background-image: url(../images/make\ up.jpeg);
+    background-size: 160px;
+    background-position: 57px 108px;
+}
+
+#makeup span{
+    position: relative;
+    top: -131px;
+    font-size: 20px;
+}
+
+#coffee{
+    background-image: url(../images/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg);
+    background-size: 205px;
+    background-position: 35px 172px;
+}
+
+#coffee span{
+    position: relative;
+    top: -121px;
+    font-size: 20px;
+}
+
+#main-top span{
+    font-size: 19px;
+    font-style: oblique;
+}
+
+#sign-in{
+    border: none;
+    display: inline-block;
+    height: 105px;
+    width: 274px;
+    margin-bottom: 33px;
+    position: relative;
+    background-color: white;
+}
+
+#sign-in button{
+    height: 38px;
+    width: 195px;
+    position: absolute;
+    top: 42px;
+    left: 33px;
+    background-color: beige;
+}
+
+#sign-in span{
+    font-size: 17px;
+    margin-left: 27px;
+    position: absolute;
+}
+#all-gifts{
+    background-image: url(../images/gift.jpg);
+    background-position: 21px 92px;
+    background-size: 231px;
+    background-repeat: no-repeat;
+    border: none;
+    height: 214px;
+    width: 276px;
+    margin-left: 965px;
+    position: relative;
+    background-color: bisque;  
+}
+
+#all-gifts span{
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 35px;
+    position: relative;
+    top: 28px;
+}
+
+.watch{
+    height: 90px;
+}
+
+.add{
+    width: 90px;
+    height: 28px;
+    background-color: blanchedalmond; 
+}
+
+#cart-2{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+}
+#cart-2 a{
+    color: rgb(37, 37, 37);
+}
+/* ##########  cart ######### */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    top: 20px;
+    /* right:20px */
+  }
+
+#list-cart{
+    background: white;
+    position: absolute;
+    top: 43px;
+    right: -2px;
+    width: 200px;
+    box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.15);
+    z-index: 50;
+}
+.item-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.item-cart img{
+    width: 60px;
+    height: 60px;
+}
+
+#list-cart p{
+    padding: 3px 4px 5px 34px;
+}
+
+.fa-window-close{
+    color: red;
+}
+
+#total{
+    padding-left: 9px;
+}
+
+#total_p{
+    padding-left: 95px;
+}
+#check-out{
+    height: 40px;
+    width: 190px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.test{
+    background: red;
+    padding: 15px;
+    color: white;
+}
+
+.cart-item{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.cart-item img{
+    width: 70px;
+    height: 70px;
+}
+.cart-item>div{
+    width: 100%;
+}
+.cart-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

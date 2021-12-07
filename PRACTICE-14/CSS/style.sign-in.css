@@ -1,0 +1,59 @@
+#body{
+    margin: 0;
+
+}
+
+header{
+   text-align: center;
+}
+
+#text-logo{
+    position: absolute;
+}
+
+
+#logo {
+    position: relative;
+    background-image: url(../images/amazon-logo-amazon-logo-white-background-vector-format-avaliable-124289859.jpg);
+    display: inline-block;
+    width: 142px;
+    height: 54px;
+    background-size: 122px;
+    background-position: 15px -15px;
+    background-repeat: no-repeat;
+}
+
+
+#input{
+
+    width: 300px;
+    height: 31px;
+    border-radius: 5px 5px;
+}
+
+#continue{
+
+    height: 37px;
+    width: 305px;
+    background: beige;
+    margin-top: 10px;
+    border-radius: 5px 5px;
+}
+
+#sign-in{
+    display: inline-block;
+    border: 2px solid beige;
+    width: 272px;
+    height: 301px;
+    padding: 21px 70px;
+   
+}
+    
+ #sign-in h1{
+     font-size: 25px;
+ }   
+
+
+ #sign-in h2{
+     font-size: 17px;
+ }

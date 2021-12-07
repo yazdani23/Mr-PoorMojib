@@ -1,0 +1,49 @@
+#slider{
+    width:80%;
+    margin:20px auto;
+    position: relative;
+    margin-bottom: 340px;
+}
+
+#slider img{
+    position: absolute;
+    top:-320px;
+    width: 100%;
+    height: 300px;
+    z-index: 10;
+}
+.circle-holder{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+    bottom: 35px; 
+}
+
+.circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+}
+
+#arrow-right{
+    position: absolute;
+    right: 20px;
+    bottom: 145px;
+    z-index: 20;
+    font-size: 30pt;  
+    color: #1a1b1b;
+}
+
+#arrow-left{
+
+    position: absolute;
+    left: 20px;
+    bottom: 145px;
+    z-index: 20;
+    font-size: 30pt;
+    color: #1a1b1b;
+}
+
