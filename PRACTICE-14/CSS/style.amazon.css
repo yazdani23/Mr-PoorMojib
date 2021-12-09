@@ -319,7 +319,7 @@ li{
     color: white;
 }
 
-#num-product{ 
+.num-product{ 
     color: orange;
     position: absolute;
     top: -14px;
@@ -546,4 +546,9 @@ li{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+.delete-item{
+    background-color: aquamarine;
+    padding: 5px;
+    cursor: pointer;
 }
